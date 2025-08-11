@@ -1,0 +1,58 @@
+# ==============================
+# Commit Basic Format
+# ==============================
+# <type>(<scope>): <issueID> <subject>
+#
+# - type: build, ci, docs, feat, fix, perf, refactor, style, test
+# - scope: 변경 범위 (예: API, UI, DB 등, 선택사항)
+# - issueID: 형식 예시 - WEB-4567
+# - subject: 한 줄 요약 (가급적 한글, 현재 시제)
+# - body: 상세 설명 (한글 가능, 현재 시제), 변경 이유 / 방법 / 영향
+# 
+# 예시:
+# feat: WEB-4567 어뷰징 슬랙 알람 추가
+#
+# * 어뷰징 슬랙 알림을 추가합니다.
+#
+# ==============================
+# Type별 예시
+# ------------------------------
+# build: 빌드/외부 의존성 변경
+#   ex> build: request-promise-native 모듈 추가
+#   ex> build: 버전업 (1.0.0 => 1.1.1)
+#
+# ci: CI 설정 변경
+#   ex> ci: 배포 스크립트 변경
+#
+# docs: 문서 변경
+#   ex> docs: README 실행 방법 추가
+#
+# feat: 기능 추가
+#   ex> feat: 아케이드 list API 추가
+#
+# fix: 버그 수정
+#   ex> fix: 누락된 파라미터 추가
+#
+# perf: 성능 개선
+#   ex> perf: 불필요한 array 탐색 제거
+#
+# refactor: 기능 변경 없이 코드 개선
+#   ex> refactor: 사용하지 않는 trCrowd 함수 제거
+#
+# style: 의미 없는 스타일 변경
+#   ex> style: indent 수정
+#
+# test: 테스트 추가/수정
+#   ex> test: 전문교정 채팅 테스트 추가
+#
+# ==============================
+# 이슈번호 작성 규칙
+# ------------------------------
+# - 맨 처음 또는 마지막 커밋에 한 번 추가
+# - 여러 이슈 처리 시 커밋을 나누고 각각에 해당 이슈번호 작성
+# ==============================
+
+<type>(<scope>): <issueID> <subject>
+
+<body>
+
